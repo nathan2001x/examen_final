@@ -89,7 +89,7 @@ public class Main {
 				System.out.println("Ingrese placa del auto");
 				placaIngresadaAuto = teclado.nextLine();
 				if (placaIngresadaAuto.equals(placaIngresada)) {
-					System.out.println(vector[i]);
+					System.out.println(vector);
 				}
 				System.out.println("El auto no esta registrado");
 				break;
@@ -107,7 +107,7 @@ public class Main {
 				break;
 
 			case 4:
-				System.out.println(vector[i]);
+				System.out.println(vector);
 				break;
 
 			default:
