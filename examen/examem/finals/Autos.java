@@ -34,7 +34,7 @@ public class Autos {
 		this.placa = placa;
 	}
 
-	public String getKilometraje() {
+	public String getKilometraje(String kilometrajeNuevo) {
 		return kilometraje;
 	}
 
